@@ -1,0 +1,10 @@
+パス移動
+cd Documents\OCRapp
+サーバー起動
+python simpleserve.py
+
+tesseractのテスト
+tesseract img\img1.png txt\output.txt -l jpn
+
+tesseract + PyOCRのテスト
+python testPyOCR.py

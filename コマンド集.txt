@@ -1,0 +1,11 @@
+パス移動
+cd desktop/APItest
+
+サーバー起動
+python app.py
+
+tesseractのテスト
+tesseract img\img1.png txt\output.txt -l jpn
+
+tesseract + PyOCRのテスト
+python testPyOCR.py
